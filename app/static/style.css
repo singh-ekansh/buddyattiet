@@ -1,0 +1,12 @@
+.shap-container svg {
+    background-color: transparent !important;
+}
+.shap-container text {
+    fill: #FFF !important; /* Adjust text color for dark mode */
+}
+.btn-group img {
+    filter: invert(1) grayscale(1) brightness(2);
+}
+.btn-group .active img {
+    filter: none;
+}
